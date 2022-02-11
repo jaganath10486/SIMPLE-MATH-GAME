@@ -102,14 +102,14 @@ checkButton.addEventListener('click',() => {
         x.play();
         alert("Correct Answer");
         result = 0;
-        setTimeout(chooseNumbers, 20000);
+        setTimeout(chooseNumbers, 10000);
     }
     else
     {
         y.play();
         alert(`Wrong Answer, Correct Answer is ${result}`);
         result = 0;
-        setTimeout(chooseNumbers, 20000);
+        setTimeout(chooseNumbers, 4000);
     }
 });
 
@@ -124,14 +124,14 @@ MyAnswer.addEventListener("keypress", (e) => {
          x.play();
          alert("Correct Answer");
          result = 0;
-         setTimeout(chooseNumbers, 20000);
+         setTimeout(chooseNumbers, 10000);
        }
        else
        {
            y.play();
           alert(`Wrong Answer, Correct Answer is ${result}`);
           result = 0;
-         setTimeout(chooseNumbers, 20000);
+         setTimeout(chooseNumbers, 4000);
        }
     }
 });
