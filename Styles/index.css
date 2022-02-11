@@ -34,9 +34,7 @@
     border: 1px solid brown;
     height: 300px;
     width: 500px;
-    min-width: 200px;
     background-color:springgreen;
-
 }
 
 .options
@@ -118,4 +116,20 @@ select
 {
     background-color:azure;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .content
+    {
+        width: 300px;
+    }
+    select
+    {
+        margin: 0px;
+    }
+    #select
+    {
+        margin: 0px;
+    }
 }
