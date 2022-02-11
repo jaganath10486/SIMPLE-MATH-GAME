@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/index.css">
+    <title>Maths Game</title>
+</head>
+<body onload="chooseNumbers()">
+    <div class="container">
+        <div class="heading">
+            <h1>Maths Game</h1>
+        </div>
+        <div class="content">
+            <div class="options">
+                <select name="numbers" id="numberRange">
+                    <option value = "1">0 - 10</option>
+                    <option value="2">11 - 20</option>
+                    <option value="3">21 - 30</option>
+                </select>
+                <label for="Select" id="select">Select</label>
+                <select name="operations" id="operation">
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">*</option>
+                </select>
+            </div>
+            <div class="main">
+                <span id="number1">2</span>
+                <span id="op">+</span>
+                <span id="number2">5</span>
+                <span id="equal">=</span>
+                <input type="number" id="answer" name="answer">
+                <button type="button" id="checkBtn">Check</button>
+            </div>
+        </div>
+    </div>
+    <audio id="correctAudio">
+        <source src="Scripts/correct.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="wrongAudio">
+        <source src="Scripts/wrong.mp3" type="audio/mpeg">
+    </audio>
+    <script src="Scripts/index.js"></script>
+</body>
+</html>
