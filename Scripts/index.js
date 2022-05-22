@@ -134,5 +134,6 @@ MyAnswer.addEventListener("keypress", (e) => {
           result = 0;
          setTimeout(chooseNumbers, 4000);
        }
+       document.getElementById('answer').value = '';
     }
 });
