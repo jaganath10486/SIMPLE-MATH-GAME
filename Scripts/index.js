@@ -8,20 +8,20 @@ function chooseNumbers()
     var numbers = Number(numberRange.value);
     if(numbers == 1)
     {
-        num1 = Math.floor(Math.random() * 10);
+        num1 = Math.floor(Math.random() * 50);
         //console.log(num1);
         num2 = Math.floor(Math.random() * num1);
         //console.log(num2);
     }
     else if(numbers == 2)
     {
-        num1 = Math.floor(Math.random() * (20 - 11) + 11);
-        num2 = Math.floor(Math.random() * (num1 - 11) + 11);
+        num1 = Math.floor(Math.random() * (200 - 51) + 51);
+        num2 = Math.floor(Math.random() * (num1 - 51) + 51);
     }
     else if(numbers == 3)
     {
-        num1= Math.floor(Math.random() * (30 - 21) + 21);
-        num2 = Math.floor(Math.random() * (num1 - 21) + 21);
+        num1= Math.floor(Math.random() * (1000 - 500) + 500);
+        num2 = Math.floor(Math.random() * (num1 - 500) + 500);
     }
     else
     {
