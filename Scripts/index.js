@@ -111,6 +111,7 @@ checkButton.addEventListener('click',() => {
         result = 0;
         setTimeout(chooseNumbers, 4000);
     }
+     document.getElementById('answer').value = '';
 });
 
 const MyAnswer = document.getElementById('answer');
